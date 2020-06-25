@@ -14,7 +14,9 @@ sentence = list()
 acum = 0
 for i in text:
     i.rstrip()
+    #RE says to find numbers in the line that are numbers of 1+ char
     coinc = re.findall('([0-9]+)', i)
+    #At least found 1 number of 1+ chars, if not, don't do anything
     if len(coinc) < 1 : 
         continue
     for j in coinc:
