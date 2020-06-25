@@ -7,7 +7,6 @@
 Obtain the data scrapping the site with Beautiful Soup, obtain the numbers in the "SPAN" tag and sum them
 '''
 
-
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 import ssl
