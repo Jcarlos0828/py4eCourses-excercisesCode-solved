@@ -4,7 +4,7 @@
 #Following the Coursera program "Using Python to access Web Data" by the University of Michigan
 
 '''
-Extrieve data with the HTTP protocol using sockets and print it
+Retrieve data with the HTTP protocol using sockets and print it
 '''
 
 import socket
